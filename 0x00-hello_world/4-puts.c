@@ -1,11 +1,11 @@
-int puts(const char* str);
+int puts(const char *str);
 
 #include<stdio.h>
-int main()
+int main(void)
 {
-	char answer[]="\"Programming is like building a multilingual puzzle";
+	char answer[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(answer);
 
-	return(0);
+	return (0);
 }
