@@ -1,11 +1,12 @@
 int puts(const char *str);
 
 #include<stdio.h>
-/*
- *
- *Prints a string statement
- *
- *
+
+/**
+ * main - Entry point
+ * Description: 'the program's description'
+ * parameter: Programming is blash blash blah
+ * Return: Always 0 (Success)
  */
 
 int main(void)
