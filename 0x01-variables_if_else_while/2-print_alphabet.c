@@ -20,7 +20,7 @@ int main(void)
 		putchar(alpha[i]);
 	}
 
-	char new[] = "\n"
+	char new[] = "\n";
 	putchar(new);
 
 
