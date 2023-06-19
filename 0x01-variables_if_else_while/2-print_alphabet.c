@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
 
