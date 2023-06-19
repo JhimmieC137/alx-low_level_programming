@@ -11,9 +11,15 @@
 
 int main(void)
 {
-	char alpha = "abcdefghijklmnopqrstuvwxyz\n";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz\n";
+	
+	int i;
 
-	putchar(alpha);
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alpha[i]);
+	}
+	putchar("\n");
 
 	return (0);
 }
