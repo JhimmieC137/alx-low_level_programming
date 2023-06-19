@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char alphabets[24] = "abcdfghijklmnoqrstuvwxyz";
+	char alphabets[24] = "abcdfghijklmnoprstuvwxyz";
 
 	int i;
 
