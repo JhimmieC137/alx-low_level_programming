@@ -19,7 +19,9 @@ int main(void)
 	{
 		putchar(alpha[i]);
 	}
-	putchar("\n");
+
+	char new[] = "\n"
+	putchar(new);
 
 
 	return (0);
