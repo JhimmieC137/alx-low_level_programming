@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: printing combinations of numbers
+ * Description: Combination of two digits
  *
  * Return: Always 0 (Success)
  *
@@ -11,28 +11,24 @@
 
 int main(void)
 {
-	int i, x, y;
+	int n, m;
 
-	for (i = 48; i <  58; i++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (x = 49; x < 58; x++)
+		for (m = 49; m <= 57; m++)
 		{
-			for (y = 50; y < 58; y++)
+ 			if (m > n)
 			{
-				if (y > x && x > i)
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
-					putchar(i);
-					putchar(x);
-					putchar(y);
-
-					if (i != 55 || x != 56)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
