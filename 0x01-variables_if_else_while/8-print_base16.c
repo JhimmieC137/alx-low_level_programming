@@ -11,15 +11,16 @@
 
 int main(void)
 {
+	char hexa[6] = "abcdef";
 	int i;
 	
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 	}
-	for (i = 97; i < 103; i++)
+	for (i = 0; i < 6; i++)
 	{
-		putchar(i);
+		putchar(hexa[i]);
 	}
 	putchar('\n');
 
