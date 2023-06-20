@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char hexa[17] = "0123456789abcdefg";
+	char hexa[17] = "0123456789abcdef\0";
 	
 	int i;
 
