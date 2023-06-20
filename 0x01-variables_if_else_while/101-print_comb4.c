@@ -21,9 +21,8 @@ int main(void)
 			{
 				if (y > x && x > i)
 				{
-					putchar(i);
-					putchar(x);
-					putchar(y);
+					putchar(i, x, y);
+					putchar('\n');
 
 					if (i != 55 || x != 56)
 					{
