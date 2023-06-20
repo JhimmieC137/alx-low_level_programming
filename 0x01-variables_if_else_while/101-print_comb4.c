@@ -23,7 +23,7 @@ int main(void)
 				{
 					putchar(i);
 					putchar(x);
-					putchar(y)
+					putchar(y);
 					if (i != 55 || x != 56)
 					{
 						putchar(',');
