@@ -11,11 +11,11 @@
 
 int main(void)
 {
-	char hexa[15] = "0123456789abcdef"
+	char hexa[15] = "0123456789abcdef";
 	
 	int i;
 
-	for (i==0; i < 15; i++)
+	for (i = 0; i < 15; i++)
 	{
 		putchar(hexa[i]);
 	}
