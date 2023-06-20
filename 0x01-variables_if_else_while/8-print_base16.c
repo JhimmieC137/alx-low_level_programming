@@ -5,15 +5,16 @@
  *
  * Description: Hexadecimals
  *
- * Returd: Always 0 (Sussess)
+ * Return: Always 0 (Sussess)
  *
  */
 
 int main(void)
 {
 	char hexa[6] = "abcdef";
+
 	int i;
-	
+
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
