@@ -13,6 +13,8 @@ int main(void)
 {
 	char text[8] = "_putchar";
 	
-	_putchar(text[i]);
+	_putchar(text[0]);
+	_putchar(text[1]);
+	_putchar(text[2]);
 	return (0);
 }
