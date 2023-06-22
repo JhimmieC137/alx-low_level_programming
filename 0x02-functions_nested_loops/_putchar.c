@@ -1,3 +1,4 @@
+#include <unistd.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -6,15 +7,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-
-void print_putchar(void)
+int _putchar(char c)
 {
-	char stuff[8] = "_putchar";
-
-	int x;
-
-	for (x = 0; x < 8; x++)
-	{
-		_putchar(stuff[x]);
-	}
+	return (write(1, &c, 1));
 }
