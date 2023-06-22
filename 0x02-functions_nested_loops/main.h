@@ -1,3 +1,4 @@
+#include "_putchar.c"
 
 /**
  * _putchar - writes the character c to stdout
@@ -7,14 +8,12 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-void print_putchar(void)
+void print_alphabet(void)
 {
-	char stuff[8] = "_putchar";
+	char c;
 
-	int x;
-
-	for (x = 0; x < 8; x++)
+	for (c = 'a'; c < 'z'; c++)
 	{
-		_putchar(stuff[x]);
+		_putchar(c);
 	}
 }
