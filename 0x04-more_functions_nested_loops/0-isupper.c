@@ -1,11 +1,12 @@
-#include <ctype.h>
 #include <stdio.h>
 #include "main.h"
+
 /**
- *
+ * _isupper - Entry point
  * Description: Detecting uppercase letters
  *
- * Return: 1 or 0
+ * @c:  letter argument
+ * Return: 1 or 0 for success
  */
 
 int _isupper(int c)
