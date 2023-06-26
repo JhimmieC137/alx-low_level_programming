@@ -17,13 +17,13 @@ void print_rev(char *s)
 	{
 		d++;
 	}
+
 	d--;
+
 	while (d >= 0)
 	{
-		/*if (*(s + d) != '\0')
-		{*/
-			_putchar(*(s + d));
-			d--;
+		_putchar(*(s + d));
+		d--;
 	}
 	_putchar('\n');
 }
