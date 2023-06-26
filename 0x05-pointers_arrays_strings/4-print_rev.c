@@ -20,8 +20,11 @@ void print_rev(char *s)
 
 	while (d > 0)
 	{
-		_putchar(*(s + d));
-		d--;
+		if (*(s + d != '\0')
+		{
+			_putchar(*(s + d));
+			d--;
+		}
 	}
 	_putchar('\n');
 }
