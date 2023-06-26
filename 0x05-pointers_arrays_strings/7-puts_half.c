@@ -12,7 +12,7 @@ void puts_half(char *str)
 	int x = 0;
 	int y;
 	int z;
-
+	
 	while (*(str + x) != '\0')
 		x++;
 
@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (z = ((x - 1) / 2); z < x; z++)
+		for (z = ((x + 1) / 2); z < x; z++)
 			_putchar(*(str + z));
 		_putchar('\n');
 	}
