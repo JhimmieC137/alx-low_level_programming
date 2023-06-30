@@ -13,12 +13,16 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int x;
-
+	int y;
 	n--;
 
 	for (x = 0; x <= n; x++)
 	{
 		*(dest + x) = *(src + x);
+		if (*(src + x) == '\0')
+			y = 1;
+		if (y == 1)
+			*(dest + x) = '\0';
 	}
 
 	return (dest);
