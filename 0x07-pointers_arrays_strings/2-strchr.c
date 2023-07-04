@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strchr - finds the first occurrance of a
  * character in a string
@@ -21,5 +21,5 @@ char *_strchr(char *s, char c)
 		}
 		x++;
 	}
-	return ("NULL");
+	return NULL;
 }
