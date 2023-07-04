@@ -26,7 +26,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (haystack[(y + s)] == needle[s])
 			{
-				if (s == x)
+				if (s == x - 1)
 					return (&haystack[y]);
 			}
 			else
