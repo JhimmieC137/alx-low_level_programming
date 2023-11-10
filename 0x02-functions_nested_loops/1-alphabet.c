@@ -1,4 +1,5 @@
-#include "_putchar.c"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - Display the alphabets
