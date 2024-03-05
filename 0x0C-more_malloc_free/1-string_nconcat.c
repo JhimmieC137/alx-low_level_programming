@@ -42,7 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		for (y = 0; y < n; y++)
+		for (y = 0; y <= n; y++)
 		{
 			*(p + (x + y)) = *(s2 + y);
 		}
