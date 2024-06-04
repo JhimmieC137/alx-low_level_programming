@@ -7,4 +7,4 @@ SRC := $(wildcard *.c)
 all: draw_horse
 
 draw_horse: school.c
-	${CC} main.c school.c -o school
+	${CC} ${SRC} -o school
