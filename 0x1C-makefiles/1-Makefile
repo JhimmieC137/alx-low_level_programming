@@ -1,11 +1,10 @@
 .PHONY: all draw_horse
 
-
-CC = gcc
-SRC = $(wildcard *.c)
+CC := gcc
+SRC := $(wildcard *.c)
 
 all: draw_horse
 
-draw_horse: ${SRC}
+draw_horse:
 	${CC} ${SRC} -o school
 
