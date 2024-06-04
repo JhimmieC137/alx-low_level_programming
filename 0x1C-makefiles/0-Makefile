@@ -1,0 +1,6 @@
+.PHONY: all draw_horse
+
+all: draw_horse
+
+draw_horse: school.c 
+	gcc main.c school.c -o school
